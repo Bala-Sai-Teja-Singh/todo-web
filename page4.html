@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic to-do UI</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="upper-container notshow">
+        <div class="upper-container1">
+            <span id="task">Tasks</span>
+            <span id="list">Lists</span>
+
+        </div>
+        <div class="upper-container2">
+            <div id="circle">
+                <a href="./page3.html"><i class="fa fa-plus-circle" style="font-size:30px;color:red"></i>
+                    </a>
+            </div>
+            <div id="addlist">Add list</div>
+        </div>
+    </div>
+    <div class="card1 notshow" style="width:300px; height:200px; margin:auto;">
+        <div class="line1">
+            <p>Trip to paris</p>
+        </div>
+        <div class="line2" style="text-align: center;">
+            <p>completed task</p>
+        </div>
+        <div class="line3">
+            <form action="">
+                <input type="checkbox" name="todo" id="check">
+                <label for="check">Pending task</label>
+            </form>
+        </div> 
+    </div>
+    <div class="popup">
+        <p id="add-new">Add new list</p>
+        <textarea name="" id="textarea" class="pop-upbar" cols="30" rows="1"></textarea>
+        <a href="./page2.html"><button class="pop-up-button">ADD</button>
+            </a>
+    </div>
+    </body>
+
+    </html>
